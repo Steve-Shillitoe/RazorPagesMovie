@@ -21,6 +21,7 @@ namespace RazorPagesMovie.Pages.Movies
 
         public IActionResult OnGet()
         {
+            /*The OnGet method initializes any state needed for the page*/
             return Page();
         }
 
