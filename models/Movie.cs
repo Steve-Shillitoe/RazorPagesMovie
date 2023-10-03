@@ -25,7 +25,7 @@ public class Movie
     [StringLength(30)]
     public string Genre { get; set; } = string.Empty;
 
-    [RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
+    [RegularExpression(@"^(U|PG|12|12A|15|18)$")]
     [StringLength(5)]
     [Required]
     public string Rating { get; set; } = string.Empty;
